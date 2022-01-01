@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+extension View {
+    func setStyleForAmount(_ amount: Double) -> some View {
+        self.modifier(AmountStyle(amount: amount))
+    }
+}
+
 struct ContentView: View {
     @StateObject var expenses = Expenses()
     @State private var showingAddExpense = false
@@ -24,7 +30,8 @@ struct ContentView: View {
                         
                         Spacer()
                         
-                        Text(item.amount, format: .currency(code: "USD"))
+                        Text(item.amount, format: .currency(code: item.currency))
+                            .setStyleForAmount(item.amount)
                     }
                 }
                 .onDelete(perform: removeItems)

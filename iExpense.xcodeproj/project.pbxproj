@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B97599672773C9C30088BFE2 /* AmountStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97599662773C9C30088BFE2 /* AmountStyle.swift */; };
 		B98269E6276579F000A42587 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98269E5276579F000A42587 /* ExpenseItem.swift */; };
 		B98269E827657A8000A42587 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98269E727657A8000A42587 /* Expenses.swift */; };
 		B98269EA2765CE9400A42587 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98269E92765CE9400A42587 /* AddView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B97599662773C9C30088BFE2 /* AmountStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountStyle.swift; sourceTree = "<group>"; };
 		B98269E5276579F000A42587 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		B98269E727657A8000A42587 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		B98269E92765CE9400A42587 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				B9EDF325275F1C26008538BD /* iExpenseApp.swift */,
 				B9EDF327275F1C26008538BD /* ContentView.swift */,
 				B98269E92765CE9400A42587 /* AddView.swift */,
+				B97599662773C9C30088BFE2 /* AmountStyle.swift */,
 				B98269E5276579F000A42587 /* ExpenseItem.swift */,
 				B98269E727657A8000A42587 /* Expenses.swift */,
 				B9EDF329275F1C28008538BD /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				B98269EA2765CE9400A42587 /* AddView.swift in Sources */,
 				B98269E6276579F000A42587 /* ExpenseItem.swift in Sources */,
 				B9EDF326275F1C26008538BD /* iExpenseApp.swift in Sources */,
+				B97599672773C9C30088BFE2 /* AmountStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
